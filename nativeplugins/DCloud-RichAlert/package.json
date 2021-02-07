@@ -1,0 +1,38 @@
+{
+  "name": "DCloudRichAlert",
+  "id": "DCloud-RichAlert",
+  "version": "1.0.0",
+  "description": "快捷方式",
+  "_dp_type": "nativeplugin",
+  "_dp_nativeplugin": {
+    "android": {
+      "plugins": [
+        {
+          "type": "module",
+          "name": "DCloud-RichAlert",
+          "class": "uni.dcloud.io.uniplugin_richalert.RichAlertWXModule"
+        }
+      ],
+      "hooksClass": "uni.dcloud.io.uniplugin_richalert.RichAlert_AppProxy",
+      "integrateType": "aar",
+      "compileOptions": {
+        "sourceCompatibility": "1.8",
+        "targetCompatibility": "1.8"
+      },
+      "defaultConfig": {
+        "multiDexEnabled": true
+      },
+      "minSdkVersion": 16,
+      "permissions": [
+        "<uses-feature android:name=\"android.permission.INTERNET\"/>",
+        "<uses-permission android:name=\"android.permission.SYSTEM_ALERT_WINDOW\" />",
+        "<uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\" />",
+        "<uses-permission android:name=\"android.permission.ACCESS_COARSE_LOCATION\"/>",
+        "<uses-permission android:name=\"android.permission.ACCESS_BACKGROUND_LOCATION\"/>",
+        "<uses-permission android:name=\"android.permission.ACCESS_LOCATION_EXTRA_COMMANDS\"/>"
+      ]
+    }
+  }
+}
+
+

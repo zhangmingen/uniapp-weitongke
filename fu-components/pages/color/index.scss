@@ -1,0 +1,64 @@
+page {
+  background-color: #fff;
+
+  .page-wrapper {
+    padding: 32rpx;
+  }
+
+  .item {
+    margin: 30rpx 0;
+    margin-top: 44rpx;
+
+    &:first-child {
+      margin-top: 0;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    .title {
+      font-size: 30rpx;
+      position: relative;
+      line-height: 1;
+      padding-left: 22rpx;
+
+      &:before {
+        width: 10rpx;
+        height: 32rpx;
+        border-radius: 100rpx;
+        background-color: $fu-main-color;
+        content: '';
+        position: absolute;
+        left: 6rpx;
+        top: -1px;
+      }
+    }
+
+    .color-box {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      color: #fff;
+      text-align: center;
+      margin-top: 20rpx;
+
+      .color-item {
+        display: flex;
+        flex: 1;
+        margin: 0 8rpx;
+        flex-direction: column;
+        border-radius: 6rpx;
+        padding: 12rpx 0;
+      }
+
+      .color-title {
+        font-size: 28rpx;
+      }
+
+      .color-value {
+        font-size: 24rpx;
+      }
+    }
+  }
+}

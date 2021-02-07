@@ -1,0 +1,151 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/home/download",
+			"style": {
+				"navigationBarTitleText": "下载APP"
+			}
+		},
+		{
+			"path": "pages/class/classlist",
+			"style": {
+				"navigationBarTitleText": "同课",
+				"enablePullDownRefresh": true //设置为true表示当前页面开启下拉刷新
+			}
+		},
+		{
+			"path": "pages/openclass/openClass",
+			"style": {
+				"navigationBarTitleText": "名师公开课",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/member/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/class/classlist",
+			"style": {
+				"navigationBarTitleText": "同课"
+			}
+		},
+		{
+			"path": "pages/member/register",
+			"style": {
+				"navigationBarTitleText": "注册"
+			}
+		},
+		{
+			"path": "pages/member/forgetPassword",
+			"style": {
+				"navigationBarTitleText": "找回密码"
+			}
+		},
+		{
+			"path": "fu-templete/pages/mine-template/u-avatar-cropper/u-avatar-cropper",
+			"style": {
+				"navigationBarTitleText": "头像裁剪"
+			}
+		},
+		{
+			"path": "pages/member/userAgreement",
+			"style": {
+				"navigationBarTitleText": "用户协议"
+			}
+		},
+		{
+			"path": "pages/member/interest",
+			"style": {
+				"navigationBarTitleText": "修改兴趣"
+			}
+		},
+		{
+			"path": "pages/member/editData",
+			"style": {
+				"navigationBarTitleText": "编辑资料"
+			}
+		},
+		{
+			"path": "pages/member/homeeditData",
+			"style": {
+				"navigationBarTitleText": "编辑资料"
+			}
+		},
+		{
+			"path": "pages/home/pay",
+			"style": {
+				"navigationBarTitleText": "充值"
+			}
+		},
+		{
+			"path": "pages/home/contact",
+			"style": {
+				"navigationBarTitleText": "联系我们"
+			}
+		},
+		{
+			"path": "pages/home/about",
+			"style": {
+				"navigationBarTitleText": "关于我们"
+			}
+		},
+		{
+			"path": "pages/home/help",
+			"style": {
+				"navigationBarTitleText": "帮助中心"
+			}
+		},
+		{
+			"path": "pages/home/invite",
+			"style": {
+				"navigationBarTitleText": "邀请赚币"
+			}
+		},
+		{
+			"path": "pages/openclass/masterList",
+			"style": {
+				"navigationBarTitleText": "名师排行榜"
+			}
+		},
+		{
+			"path": "pages/class/signUp",
+			"style": {
+				"navigationBarTitleText": "立即报名"
+			}
+		},
+		{
+			"path": "pages/class/classDetail",
+			"style": {
+				"navigationBarTitleText": "课程详情"
+			}
+		},
+		{
+			"path": "pages/class/search",
+			"style": {
+				"navigationBarTitleText": "搜索"
+			}
+		},
+		{
+			"path": "pages/class/searchResult",
+			"style": {
+				"navigationBarTitleText": "搜索结果"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationStyle": "custom",
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "微同课",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}

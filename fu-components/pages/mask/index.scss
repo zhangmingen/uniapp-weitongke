@@ -1,0 +1,42 @@
+page {
+  background-color: #fff;
+
+  .button-wrapper {
+    padding: 32rpx;
+
+    .button {
+      margin-bottom: 32rpx;
+    }
+
+    .title {
+      margin-bottom: 40rpx;
+      font-size: 28rpx;
+      color: #999;
+      border-left: 10rpx solid $fu-main-color;
+      padding: 10rpx 0 10rpx 24rpx;
+      line-height: 1.5;
+    }
+  }
+
+  .transverse {
+    height: 400rpx;
+    font-size: 36rpx;
+    font-weight: bold;
+  }
+
+  .vertical {
+    width: 460rpx;
+    height: 100%;
+    font-size: 36rpx;
+    font-weight: bold;
+  }
+
+  .middle {
+    width: 500rpx;
+    height: 800rpx;
+    border-radius: 10rpx;
+    background-color: #fff;
+    font-size: 36rpx;
+    font-weight: bold;
+  }
+}

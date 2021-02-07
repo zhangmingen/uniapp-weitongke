@@ -1,0 +1,321 @@
+<template>
+  <view class="page-wrapper">
+
+    <view class="item">
+      <view class="title">
+        主色调
+      </view>
+      <view class="color-box">
+        <view class="color-item" style="background: linear-gradient(87deg, #2da4f9 0%, #0e6dff 100%);">
+          <view class="color-title">
+            Primary
+          </view>
+          <view class="color-value">
+            渐变色
+          </view>
+        </view>
+        <view class="color-item" style="background: #3c88ff;">
+          <view class="color-title">
+            Dark
+          </view>
+          <view class="color-value">
+            渐变色
+          </view>
+        </view>
+        <view class="color-item" style="background: #a0cfff;">
+          <view class="color-title">
+            Disabled
+          </view>
+          <view class="color-value">
+            #a0cfff
+          </view>
+        </view>
+        <view class="color-item" style="background: #ecf5ff; color: #909399;">
+          <view class="color-title">
+            Light
+          </view>
+          <view class="color-value">
+            #ecf5ff
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="item">
+      <view class="title">
+        Error
+      </view>
+      <view class="color-box">
+        <view class="color-item" style="background: #fa3534;">
+          <view class="color-title">
+            Error
+          </view>
+          <view class="color-value">
+            #fa3534
+          </view>
+        </view>
+        <view class="color-item" style="background: #dd6161;">
+          <view class="color-title">
+            Dark
+          </view>
+          <view class="color-value">
+            #dd6161
+          </view>
+        </view>
+        <view class="color-item" style="background: #fab6b6;">
+          <view class="color-title">
+            Disabled
+          </view>
+          <view class="color-value">
+            #fab6b6
+          </view>
+        </view>
+        <view class="color-item" style="background: #fef0f0;color: #909399;">
+          <view class="color-title">
+            Light
+          </view>
+          <view class="color-value">
+            #fef0f0
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="item">
+      <view class="title">
+        Warning
+      </view>
+      <view class="color-box">
+        <view class="color-item" style="background: #ff9900;">
+          <view class="color-title">
+            Warning
+          </view>
+          <view class="color-value">
+            #ff9900
+          </view>
+        </view>
+        <view class="color-item" style="background: #f29100;">
+          <view class="color-title">
+            Dark
+          </view>
+          <view class="color-value">
+            #f29100
+          </view>
+        </view>
+        <view class="color-item" style="background: #fcbd71;">
+          <view class="color-title">
+            Disabled
+          </view>
+          <view class="color-value">
+            #fcbd71
+          </view>
+        </view>
+        <view class="color-item" style="background: #fdf6ec;color: #909399;">
+          <view class="color-title">
+            Light
+          </view>
+          <view class="color-value">
+            #fdf6ec
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="item">
+      <view class="title">
+        Info
+      </view>
+      <view class="color-box">
+        <view class="color-item" style="background: #909399;">
+          <view class="color-title">
+            Info
+          </view>
+          <view class="color-value">
+            #909399
+          </view>
+        </view>
+        <view class="color-item" style="background: #82848a;">
+          <view class="color-title">
+            Dark
+          </view>
+          <view class="color-value">
+            #82848a
+          </view>
+        </view>
+        <view class="color-item" style="background: #c8c9cc;">
+          <view class="color-title">
+            Disabled
+          </view>
+          <view class="color-value">
+            #c8c9cc
+          </view>
+        </view>
+        <view class="color-item" style="background: #f4f4f5;color: #909399;">
+          <view class="color-title">
+            Light
+          </view>
+          <view class="color-value">
+            #f4f4f5
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="item">
+      <view class="title">
+        Success
+      </view>
+      <view class="color-box">
+        <view class="color-item" style="background: #19be6b;">
+          <view class="color-title">
+            Success
+          </view>
+          <view class="color-value">
+            #19be6b
+          </view>
+        </view>
+        <view class="color-item" style="background: #18b566;">
+          <view class="color-title">
+            Dark
+          </view>
+          <view class="color-value">
+            #18b566
+          </view>
+        </view>
+        <view class="color-item" style="background: #71d5a1;">
+          <view class="color-title">
+            Disabled
+          </view>
+          <view class="color-value">
+            #71d5a1
+          </view>
+        </view>
+        <view class="color-item" style="background: #dbf1e1;color: #909399;">
+          <view class="color-title">
+            Light
+          </view>
+          <view class="color-value">
+            #dbf1e1
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="item">
+      <view class="title">
+        文字颜色
+      </view>
+      <view class="color-box">
+        <view class="color-item" style="background: #303133;">
+          <view class="color-title">
+            主要文字
+          </view>
+          <view class="color-value">
+            #303133
+          </view>
+        </view>
+        <view class="color-item" style="background: #606266;">
+          <view class="color-title">
+            常规文字
+          </view>
+          <view class="color-value">
+            #606266
+          </view>
+        </view>
+        <view class="color-item" style="background: #909399;">
+          <view class="color-title">
+            次要文字
+          </view>
+          <view class="color-value">
+            #909399
+          </view>
+        </view>
+        <view class="color-item" style="background: #c0c4cc;">
+          <view class="color-title">
+            占位文字
+          </view>
+          <view class="color-value">
+            #c0c4cc
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="item">
+      <view class="title">
+        边框颜色
+      </view>
+      <view class="color-box">
+        <view class="color-item" style="background: #dcdfe6;color: #909399;">
+          <view class="color-title">
+            一级边框
+          </view>
+          <view class="color-value">
+            #dcdfe6
+          </view>
+        </view>
+        <view class="color-item" style="background: #e4e7ed;color: #909399;">
+          <view class="color-title">
+            二级边框
+          </view>
+          <view class="color-value">
+            #e4e7ed
+          </view>
+        </view>
+        <view class="color-item" style="background: #ebeef5;color: #909399;">
+          <view class="color-title">
+            三级边框
+          </view>
+          <view class="color-value">
+            #ebeef5
+          </view>
+        </view>
+        <view class="color-item" style="background: #f2f6fc;color: #909399;">
+          <view class="color-title">
+            四级边框
+          </view>
+          <view class="color-value">
+            #f2f6fc
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="item">
+      <view class="title">
+        背景颜色
+      </view>
+      <view class="color-box">
+        <view class="color-item" style="background: #f7f7f7;color: #909399;">
+          <view class="color-title">
+            背景颜色
+          </view>
+          <view class="color-value">
+            #f7f7f7
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>
+
+<script>
+export default {
+  data() {
+    return {
+      showTopPopup: false,
+      showBottomPopup: false,
+      showLeftPopup: false,
+      showRightPopup: false,
+      showCenterPopup: false,
+    }
+  },
+
+  methods: {
+    handleShowPopup(mode) {
+      this.popupMode = mode
+      this.$nextTick(() => {
+        this.showPopup = true
+      })
+    }
+  }
+}
+
+</script>
+
+<style lang="scss">
+@import './index.scss';
+</style>

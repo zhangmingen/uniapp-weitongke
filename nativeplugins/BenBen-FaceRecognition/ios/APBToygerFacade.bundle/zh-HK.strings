@@ -1,0 +1,42 @@
+/* 
+  zh-HK.strings
+  APBToygerFacade
+
+  Created by shouyi.www on 2017/6/1.
+  Copyright © 2017年 Alipay. All rights reserved.
+*/
+"APBToygerFacade:取消"="取消";
+"APBToygerFacade:再试一次"="再试一次";
+"APBToygerFacade:退出"="退出";
+"APBToygerFacade:确定"="确定";
+"APBToygerFacade:继续"="继续";
+"APBToygerFacade:我知道了"="我知道了";
+"APBToygerFacade:其他登录方式"="其他登录方式";
+"APBToygerFacade:刷脸失败"="刷脸失败";
+"APBToygerFacade:当前设备不支持刷脸"="当前设备不支持刷脸";
+"APBToygerFacade:无法启动相机"="无法启动相机";
+"APBToygerFacade:请到\“设置-隐私-相机\”开启权限"="请到\“设置-隐私-相机\”开启权限";
+"APBToygerFacade:立即开启"="立即开启";
+"APBToygerFacade:刷脸仅在iOS7及以上系统可用"="刷脸仅在iOS7及以上系统可用";
+"APBToygerFacade:系统错误"="系统错误";
+"APBToygerFacade:确定退出吗?"="确定退出吗?";
+"APBToygerFacade:露个脸就能通过"="露个脸就能通过";
+"APBToygerFacade:操作超时"="操作超时";
+"APBToygerFacade:提示:正对手机,更容易成功"="提示:正对手机,更容易成功";
+"APBToygerFacade:本次操作失败"="本次操作失败";
+"APBToygerFacade:网络不给力"="网络不给力";
+"APBToygerFacade:登录中断"="登录中断";
+"APBToygerFacade:验证中断"="验证中断";
+
+"APBToygerFacade:未检测到眨眼"="未检测到眨眼";
+"APBToygerFacade:拿起手机眨眨眼"="拿起手机眨眨眼";
+"APBToygerFacade:没有检测到眨眼"="没有检测到眨眼";
+"APBToygerFacade:脸部亮一点"="脸部亮一点";
+"APBToygerFacade:近一点"="近一点";
+"APBToygerFacade:把脸移入框内"="把脸移入框内";
+"APBToygerFacade:请正对手机"="請對準手機";
+"APBToygerFacade:再清晰一点"="再清晰一点";
+"APBToygerFacade:请调整姿势"="请调整姿势";
+"APBToygerFacade:眨眨眼"="眨眨眼";
+"APBToygerFacade:人脸识别"="人脸验证";
+"APBToygerFacade:蚂蚁佐罗提供技术支持"="螞蟻佐羅提供技術支援";

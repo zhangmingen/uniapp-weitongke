@@ -1,0 +1,28 @@
+{
+    "name": "DcloudFaceRecognition",
+    "id": "DcloudFaceRecognition",
+    "version": "1.0.0",
+    "description": "人脸识别插件",
+    "_dp_type":"nativeplugin",
+    "_dp_nativeplugin":{
+        "android": {
+            "plugins": [
+                {
+                    "type": "module",
+                    "name": "DcloudFaceRecognition",
+                    "class": "uni.dcloud.io.uniplugin_richalert.RichAlertWXModule"
+                }
+            ],
+            // "hooksClass": "可选, 事件钩子注册类名",
+            "integrateType": "aar",
+            "compileOptions": {  //可选，Java编译参数配置LLL
+                "sourceCompatibility": "1.8",
+                "targetCompatibility": "1.8"
+            },
+            "minSdkVersion": 16,
+            "permissions": [
+                     "<uses-permission android:name=\"android.permission.CAMERA\" />"
+            ]
+        }
+    }
+}

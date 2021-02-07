@@ -1,0 +1,45 @@
+page {
+  background-color: white;
+}
+
+.page-wrapper {
+  .page-header {
+    padding: 0 32rpx 60rpx;
+
+    .header {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 24rpx;
+
+      .lside {
+        width: 150rpx;
+        height: 150rpx;
+
+        .logo {
+          width: 150rpx;
+          height: 150rpx;
+          display: block;
+        }
+      }
+
+      .rside {
+        padding-left: 32rpx;
+
+        .title {
+          font-size: 60rpx;
+          font-weight: bolder;
+          color: #333;
+          text-align: center;
+        }
+
+        .desc {
+          font-size: 24rpx;
+          color: #999;
+          padding-top: 6rpx;
+          text-align: center;
+        }
+      }
+    }
+  }
+}

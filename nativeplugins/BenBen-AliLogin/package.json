@@ -1,0 +1,42 @@
+{
+	"name": "BenBenAliLogin",
+	"id": "BenBen-AliLogin",
+	"version": "1.1.9",
+	"description": "阿里登录",
+	"_dp_type": "nativeplugin",
+	"_dp_nativeplugin": {
+		"ios": {
+			"hooksClass": "BenBenAliLoginProxy",
+			"plugins": [{
+				"type": "module",
+				"name": "BenBen-AliLogin",
+				"class": "BenBenAliLoginModule"
+			}],
+			"frameworks": [
+			    "libresolv.tbd",
+				"libresolv.9.tbd"
+			],
+			"resources": [
+			       "ATAuthSDK.bundle",
+			       "路径 11582@2x.png",
+			       "路径 11582@3x.png",
+			       "progresshud-error@2x.png",
+			       "组 9652@2x.png",
+			       "组 9652@3x.png",
+			       "progresshud-success@2x.png",
+			       "矩形 6@2x.png",
+			       "矩形 6@3x.png",
+                   "shouji@2x.png",
+				   "AliyunEmasServices-Info.plist"
+			],
+            "parameters": {
+                "LoginSecret": {
+                    "des": "AliLoginSecret",
+                    "key": "AliLogin:LoginSecret"
+                }
+            },
+			"integrateType": "library",
+			"deploymentTarget": "10.0"
+		}
+	}
+}

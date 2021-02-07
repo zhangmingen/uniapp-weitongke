@@ -1,0 +1,51 @@
+/* 
+  en.strings
+  APBToygerFacade
+
+  Created by shouyi.www on 2017/6/1.
+  Copyright © 2017年 Alipay. All rights reserved.
+*/
+
+"APBToygerFacade:取消"="Cancel";
+"APBToygerFacade:再试一次"="Try Again";
+"APBToygerFacade:退出"="Quit";
+"APBToygerFacade:确定"="OK";
+"APBToygerFacade:继续"="Continue";
+"APBToygerFacade:我知道了"="Got it";
+"APBToygerFacade:其他登录方式"="Another login method";
+"APBToygerFacade:刷脸失败"="Face scan failed";
+"APBToygerFacade:当前设备不支持刷脸"="Face scan not supported on your device";
+"APBToygerFacade:无法启动相机"="Unable to turn on camera";
+"APBToygerFacade:请到\“设置-隐私-相机\”开启权限"="Please allow camera access from the menu Settings > Privacy > Camera";
+"APBToygerFacade:立即开启"="Open right now";
+"APBToygerFacade:刷脸仅在iOS7及以上系统可用"="Face scan service is only available on iOS7 or above";
+"APBToygerFacade:系统错误"="System error";
+"APBToygerFacade:确定退出吗?"="Are you sure you want to go back?";
+"APBToygerFacade:露个脸就能通过"="You can pass while I see your whole face";
+"APBToygerFacade:操作超时"="Operation timed out";
+"APBToygerFacade:提示:正对手机,更容易成功"="Tip: Fit your face to within the frame and ensure you have enough light";
+"APBToygerFacade:正对手机,更容易成功"="Tip: Fit your face to within the frame and ensure you have enough light";
+"APBToygerFacade:本次操作失败"="Sorry, we couldn't identify you";
+"APBToygerFacade:网络不给力"="Poor Network Connection";
+"APBToygerFacade:登录中断"="Login interrupted";
+"APBToygerFacade:验证中断"="Verify interrupted";
+"APBToygerFacade:未检测到眨眼"="Eye blink not detected";
+"APBToygerFacade:拿起手机眨眨眼"="Pick up your phone and blink your eyes";
+"APBToygerFacade:没有检测到眨眼"="Eye blink not detected";
+"APBToygerFacade:脸部亮一点"="Get more light";
+"APBToygerFacade:近一点"="Move closer";
+"APBToygerFacade:把脸移入框内"="No face detected";
+"APBToygerFacade:请把脸移入框内保持不动"="Move your face to fit the frame";
+"APBToygerFacade:请正对手机"="No face detected";
+"APBToygerFacade:再清晰一点"="Don't move your phone";
+"APBToygerFacade:请调整姿势"="Face is not clear";
+"APBToygerFacade:眨眨眼"="Blink your eyes";
+"APBToygerFacade:请保持不动"="Stay still";
+"APBToygerFacade:离远一点"="Move farther";
+"APBToygerFacade:没有检测到脸"="No face detected";
+"APBToygerFacade:当前系统不支持刷脸"="Face scan is not supported on this device";
+"APBToygerFacade:正在处理"="Processing...";
+"APBToygerFacade:刷脸仅在iOS7及以上版本可用"="Face scan is only available on iOS7 or above";
+"APBToygerFacade:人脸识别"="Face Verification";
+"APBToygerFacade:蚂蚁佐罗提供技术支持"="Powered by ZOLOZ";
+
